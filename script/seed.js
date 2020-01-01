@@ -79,14 +79,15 @@ async function seed() {
     }),
     Contact.create({
       title: 'Github',
-      imgUrl: 'https://www.linkedin.com/in/crispinarmuriel/'
+      imgUrl: 'github.png',
+      url: 'https://github.com/crispinamuriel'
     })
   ])
 
   console.log(
-    `seeded ${users.length} users, ${info.length} info, and ${
-      contact.length
-    } contacts`
+    `seeded ${users.length} users, ${projects.length} projects, ${
+      info.length
+    } info, and ${contact.length} contacts`
   )
   console.log(`seeded successfully`)
 }
