@@ -185,6 +185,11 @@ td {
   justify-content: center;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
 .column {
   display: flex;
   flex-direction: column;

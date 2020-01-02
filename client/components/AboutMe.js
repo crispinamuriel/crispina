@@ -22,14 +22,17 @@ export default class AboutMe extends Component {
     const info = this.state.info
 
     return (
-      <div id="container">
-        <img
-          id="photo"
-          className="circle card story4 sticky"
-          src="CrispinaMuriel.JPG"
-          width="280"
-          height="280"
-        />
+      <div id="container" className="row">
+        <div>
+          <img
+            id="photo"
+            className="circle card story4 sticky"
+            src="CrispinaMuriel.JPG"
+            width="280"
+            height="280"
+          />
+        </div>
+
         <div id="stories" className="column quotes">
           {info.map(infoEntry => (
             <div className="story opacity card" key={infoEntry.id}>
