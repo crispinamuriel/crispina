@@ -37,7 +37,7 @@ export default class AboutMe extends Component {
           {info.map(infoEntry => (
             <div className="story opacity card" key={infoEntry.id}>
               <div
-                className="story opacity box margin-bottom"
+                className="story opacity box story-height"
                 key={infoEntry.id}
               >
                 <img src={infoEntry.imgUrl} width="500" />

@@ -211,12 +211,23 @@ td {
   width: 100%;
 }
 
+#container2 {
+  display: flex;
+  flex-direction: row;
+  min-width: 600px;
+}
+
 .gray {
   color: gray;
 }
 
 .story {
   width: 500px;
+  min-width: 550px;
+}
+
+.story-height {
+  min-height: 500px;
 }
 
 .story h3 {
@@ -266,7 +277,7 @@ h1 {
 
 .opacity {
   background-color: #eee;
-  margin-bottom: 10px;
+  margin-bottom: 1px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   opacity: 1;
@@ -297,7 +308,7 @@ h1 {
 
 .quotes {
   width: 20vw;
-  min-height: 400px;
+  min-height: 150px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -307,7 +318,7 @@ h1 {
 .quotes .box {
   position: relative;
   width: 37vw;
-  height: 45vh;
+  height: 380px;
   min-height: 320px;
   background: #f2f2f2;
   overflow: hidden;
