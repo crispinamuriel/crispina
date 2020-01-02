@@ -1,6 +1,6 @@
 const User = require('./user')
 const Project = require('./Project')
-const Info = require('./info')
+const Info = require('./Info')
 const Contact = require('./Contact')
 
 /**
