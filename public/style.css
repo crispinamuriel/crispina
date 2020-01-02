@@ -301,8 +301,8 @@ h1 {
 
 .quotes .box {
   position: relative;
-  width: 37vw;
-  height: 45vh;
+  width: 550px;
+  height: 375 px;
   min-height: 320px;
   background: #f2f2f2;
   overflow: hidden;
