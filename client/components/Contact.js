@@ -1,4 +1,5 @@
 import React from 'react'
+
 const Contact = () => (
   <div id="stories" className="column">
     <div className="story3 opacity contact-link">
