@@ -185,25 +185,24 @@ td {
   justify-content: center;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
 .column {
   display: flex;
   flex-direction: column;
 }
 
-.comment {
-  border: 1px solid gray;
-  background-color: #fff;
-  padding: 1em;
-  margin: 1em;
-}
-
-.comment h5 {
-  color: gray;
-}
-
 .container {
-  height: 100%;
-  width: 100%;
+  display: flex;
+}
+
+#container2 {
+  display: flex;
+  flex-direction: row;
+  min-width: 600px;
 }
 
 .gray {
@@ -212,6 +211,11 @@ td {
 
 .story {
   width: 500px;
+  min-width: 550px;
+}
+
+.story-height {
+  min-height: 500px;
 }
 
 .story h3 {
@@ -261,7 +265,7 @@ h1 {
 
 .opacity {
   background-color: #eee;
-  margin-bottom: 10px;
+  margin-bottom: 1px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   opacity: 1;
@@ -285,14 +289,15 @@ h1 {
 }
 
 #photo {
-  align-items: center;
+  width: 280px;
+  height: 280px;
   margin-top: 15px;
-  margin-right: 25px;
+  margin-right: 15px;
 }
 
 .quotes {
   width: 20vw;
-  min-height: 400px;
+  min-height: 150px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -426,6 +431,8 @@ h1 {
 
 .circle {
   border-radius: 50%;
+  width: 280;
+  height: 280;
 }
 
 .sticky {
@@ -433,4 +440,9 @@ h1 {
   /* Safari */
   position: sticky;
   top: 0;
+}
+
+html {
+  min-width: 550px;
+  position: relative;
 }
