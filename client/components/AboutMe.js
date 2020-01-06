@@ -24,13 +24,7 @@ export default class AboutMe extends Component {
     return (
       <div id="container" className="row">
         <div>
-          <img
-            id="photo"
-            className="circle card story4 sticky"
-            src="CrispinaMuriel.JPG"
-            width="280"
-            height="280"
-          />
+          <img id="photo" className="circle sticky" src="CrispinaMuriel.JPG" />
         </div>
 
         <div id="stories" className="column quotes">
