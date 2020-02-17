@@ -55,7 +55,7 @@ async function seed() {
     Info.create({
       title: 'Professional Interests',
       content:
-        "I've attended a few AWS Loft events and single-day 'bootcamps' about Machine Learning, Internet of Things, and Blockchain. I am interested in learning more about these topics. If you feel like you want to discuss TensorFlow, let's have some grab some tea and chat together! The next languages I'm looking to learn next  are Python, Typescript, and Java.",
+        "I've attended a few AWS Loft events and single-day 'bootcamps' about Machine Learning, Internet of Things, and Blockchain. I am interested in learning more about these topics. If you would like to discuss TensorFlow, let's have some grab some tea and chat together! The next languages I'm looking to learn are Python, Typescript, and Java.",
       imgUrl: 'iot.jpg'
     }),
     Info.create({
