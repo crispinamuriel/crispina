@@ -443,3 +443,14 @@ html {
   min-width: 550px;
   position: relative;
 }
+
+#code {
+  align-self: end;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+#info_div {
+  display: flex;
+  justify-content: flex-end;
+}

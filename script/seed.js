@@ -17,25 +17,29 @@ async function seed() {
       title: 'EnCoMPASS',
       content: 'An educational app for students and teacher collaboration',
       imageUrl: 'encompass.png',
-      projectUrl: 'https://encompass.mathematicalthinking.org/'
+      projectUrl: 'https://encompass.mathematicalthinking.org/',
+      gitHubUrl: 'https://github.com/crispinamuriel/encompass'
     }),
     Project.create({
       title: 'Codewords',
       content: 'A multiplayer game based of of the board game Codenames',
       imageUrl: 'codewords.png',
-      projectUrl: 'https://codewords-1909-gracehopper.herokuapp.com/'
+      projectUrl: 'https://codewords-1909-gracehopper.herokuapp.com/',
+      gitHubUrl: 'https://github.com/crispinamuriel/Codewords'
     }),
     Project.create({
       title: 'LoveLaces',
       content: 'An e-commerce fullstack application for women’s shoes',
       imageUrl: 'Shoes.jpg',
-      projectUrl: 'https://grace-shopper-lovelaces.herokuapp.com/'
+      projectUrl: 'https://grace-shopper-lovelaces.herokuapp.com/',
+      gitHubUrl: 'https://github.com/crispinamuriel/Lovelaces'
     }),
     Project.create({
       title: 'Recipe App',
       content: 'A single page application to store user recipes',
       imageUrl: 'recipe.jpeg',
-      projectUrl: 'https://muriel-recipe-app.netlify.com/'
+      projectUrl: 'https://muriel-recipe-app.netlify.com/',
+      gitHubUrl: 'https://github.com/crispinamuriel/recipe-app'
     })
   ])
 
