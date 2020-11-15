@@ -4,8 +4,7 @@ const db = require('../db')
 const Info = db.define('info', {
   title: Sequelize.TEXT,
   content: Sequelize.TEXT,
-  imgUrl: Sequelize.STRING,
-  gitHubUrl: Sequelize.STRING
+  imgUrl: Sequelize.STRING
 })
 
 module.exports = Info

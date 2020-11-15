@@ -5,7 +5,8 @@ const Project = db.define('project', {
   title: Sequelize.STRING,
   content: Sequelize.TEXT,
   imageUrl: Sequelize.STRING,
-  projectUrl: Sequelize.STRING
+  projectUrl: Sequelize.STRING,
+  gitHubUrl: Sequelize.STRING
 })
 
 module.exports = Project
