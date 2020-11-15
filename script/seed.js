@@ -43,7 +43,7 @@ async function seed() {
     Info.create({
       title: 'Technical Skills',
       content:
-        'JavaScript (es6+), HTML5, CSS, React.js, Redux.js, Node.js, Express.js, PostgreSQL, Sequelize, SQL, RDBMS, Babel, Webpack, Git, GitHub, AJAX, REST, APIs, JSON, WebSockets, Socket.io, Jasmine, Mocha, Chai, Enzyme, LocalStorage, uuid, Full Stack Development, Heroku, Google OAuth, Agile, SCRUM, Pair Programming, UI/UX, Web Design, Linux, Bash, Browserify, Vue, Vuetify, Ember, Selenium, CentOS/Linode',
+        'JavaScript (es6+), HTML5, CSS, React.js, Redux.js, Node.js, Express.js, PostgreSQL, Sequelize, SQL, RDBMS, Babel, Webpack, Git, GitHub, AJAX, REST, APIs, JSON, WebSockets, Socket.io, Jasmine, Mocha, Chai, Enzyme, LocalStorage, Full Stack Development, Heroku, Google OAuth, Agile, SCRUM, Pair Programming, UI/UX, Web Design, Linux, Bash, Browserify, Vue.js, Vuetify, Ember.js, Selenium, CentOS/Linode',
       imgUrl: 'dev-logos.png'
     }),
     Info.create({
@@ -61,7 +61,7 @@ async function seed() {
     Info.create({
       title: 'Professional Interests',
       content:
-        "I've attended a few AWS Loft events and single-day 'bootcamps' about Machine Learning, Internet of Things, and Blockchain. I am interested in learning more about these topics. If you feel like you want to discuss TensorFlow, let's have some grab some tea and chat together! The next languages I'm looking to learn next  are Python, Typescript, and Java. I hope to learn a little more about GraphQL, Docker, and Kubernetes.",
+        "I've attended a few AWS Loft events and single-day 'bootcamps' about Machine Learning, Internet of Things, and Blockchain. I am interested in learning more about these topics. If you feel like you want to discuss TensorFlow, let's have Zoom tea time and chat! The next languages I'm looking to learn next  are Python, Typescript, and Java. I hope to learn a little more about GraphQL, Docker, and Kubernetes.",
       imgUrl: 'iot.jpg'
     }),
     Info.create({
