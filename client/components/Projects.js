@@ -32,9 +32,11 @@ export default class Projects extends Component {
               </div>
               <h3 id="project">{story.title}</h3>
             </a>
-            <span>{story.content}</span>
+            <span id="story_content">{story.content}</span>
             <div id="info_div">
               <a href={story.gitHubUrl} target="_blank">
+                {' '}
+                <span id="source">View Source Code</span>
                 <img
                   id="code"
                   src="https://cdn.iconscout.com/icon/free/png-512/code-336-830581.png"

@@ -209,7 +209,7 @@ td {
 
 .story {
   width: 500px;
-  min-width: 550px;
+  min-width: 500px;
 }
 
 .story-height {
@@ -273,6 +273,7 @@ h1 {
   width: 370px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  margin-bottom: 5px;
 }
 
 .story3 {
@@ -453,4 +454,16 @@ html {
 #info_div {
   display: flex;
   justify-content: flex-end;
+}
+
+#source {
+  font-size: 13px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-right: 8px;
+  position: relative;
+  bottom: 7px;
+}
+
+#story_content {
+  margin-left: 10px;
 }
