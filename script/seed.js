@@ -15,21 +15,21 @@ async function seed() {
   const projects = await Promise.all([
     Project.create({
       title: 'EnCoMPASS',
-      content: 'An educational app for students and teacher collaboration',
+      content: 'An educational app for students & teacher collaboration',
       imageUrl: 'encompass.png',
       projectUrl: 'https://encompass.mathematicalthinking.org/',
       gitHubUrl: 'https://github.com/crispinamuriel/encompass'
     }),
     Project.create({
       title: 'Codewords',
-      content: 'A multiplayer game based of of the board game Codenames',
+      content: 'A multiplayer game based on the board game Codenames',
       imageUrl: 'codewords.png',
       projectUrl: 'https://codewords-1909-gracehopper.herokuapp.com/',
       gitHubUrl: 'https://github.com/crispinamuriel/Codewords'
     }),
     Project.create({
       title: 'LoveLaces',
-      content: 'An e-commerce fullstack application for women’s shoes',
+      content: 'An e-commerce full stack application for women’s shoes',
       imageUrl: 'Shoes.jpg',
       projectUrl: 'https://grace-shopper-lovelaces.herokuapp.com/',
       gitHubUrl: 'https://github.com/crispinamuriel/Lovelaces'
@@ -47,19 +47,19 @@ async function seed() {
     Info.create({
       title: 'Technical Skills',
       content:
-        'JavaScript (es6+), HTML5, CSS, React.js, Redux.js, Node.js, Express.js, PostgreSQL, Sequelize, SQL, RDBMS, Babel, Webpack, Git, GitHub, AJAX, REST, APIs, JSON, WebSockets, Socket.io, Jasmine, Mocha, Chai, Enzyme, LocalStorage, Full Stack Development, Heroku, Google OAuth, Agile, SCRUM, Pair Programming, UI/UX, Web Design, Linux, Bash, Browserify, Vue.js, Vuetify, Ember.js, Selenium, CentOS/Linode',
+        'JavaScript (ES6+), HTML5, CSS, React.js, Redux.js, Node.js, Express.js, PostgreSQL, Sequelize, SQL, RDBMS, Babel, Webpack, Git, GitHub, AJAX, REST, APIs, JSON, WebSockets, Socket.io, Jasmine, Mocha, Chai, Enzyme, LocalStorage, Full Stack Development, Heroku, Google OAuth, Agile, SCRUM, Pair Programming, UI/UX, Web Design, Linux, Bash, Browserify, Vue.js, Vuetify, Ember.js, Selenium, CentOS/Linode',
       imgUrl: 'dev-logos.png'
     }),
     Info.create({
       title: 'Professional Background',
       content:
-        'My passions are Tech, Learning, and Education. I have credentials to teach elementary school in California and New York. As a user of educational apps in my classroom, I was always inspired at how tech seemed to motivate my class to learn. I loved my time spent working with children and am proud to contribute to the EdTech field that reaches many children in a meaningful way. I have been coding and building full stack applications for over a year. JavaScript is fun to work with and I love how creative I can be with it. I am currently working as a Full Stack JavaScript Developer on an educational app that allows students and teachers to collaborate.',
+        'My passions are Tech, Learning, and Education. I have credentials to teach elementary school in California and New York. As a user of educational apps in my classroom, I was always inspired at how technology seemed to motivate my class to learn. I loved my time spent working with children and am proud to contribute to the EdTech field that reaches many children in a meaningful way. I have been coding and building full stack applications for over a year. JavaScript is fun to work with, I love how creative I can be with it. I am currently working as a Full Stack JavaScript Developer on an educational app that allows students and teachers to collaborate.',
       imgUrl: 'education.jpg'
     }),
     Info.create({
       title: 'Personal Background',
       content:
-        "I'm a transplant from Southern California. I grew up and attended college in Bakersfield, CA. I'm now living in New York, with my wonderful husband. I like living here because I enjoy visiting all the diverse food options and welcoming community here.",
+        "I'm a transplant from Southern California. I grew up and attended college in Bakersfield, CA. I'm now living in New York, with my wonderful husband. I enjoy visiting all the diverse food options and welcoming community here.",
       imgUrl: 'queens.jpg'
     }),
     Info.create({
