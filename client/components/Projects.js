@@ -26,7 +26,11 @@ export default class Projects extends Component {
         {stories.map(story => (
           <div className="story story2 opacity" key={story.id}>
             <hr />
-            <a href={story.projectUrl} target="_blank">
+            <a
+              href={story.projectUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <div className="centered solid">
                 <img src={story.imageUrl} width="100" />
               </div>
@@ -34,7 +38,11 @@ export default class Projects extends Component {
             </a>
             <span id="story_content">{story.content}</span>
             <div id="info_div">
-              <a href={story.gitHubUrl} target="_blank">
+              <a
+                href={story.gitHubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {' '}
                 <span id="source">View Source Code</span>
                 <img
