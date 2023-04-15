@@ -20,9 +20,3 @@ You can inspect my API here http://crispina.herokuapp.com/api/info, http://crisp
 * `npm run build-watch` to start the webpack process
 * Open another terminal window; from there, `npm run start-server` to start the server process
 * Open another terminal window; from there, `npm run seed` to seed the database
-
-## Heroku Deployment
-
-* `npm run deploy`
-* Open another terminal window; from there , `heroku run bash`
-* Inside the heroku container, `npm run seed` to seed the database
