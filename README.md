@@ -1,7 +1,7 @@
 # Crispnia Muriel
 
 Personal website, a full stack app created with React, Node, Express and PostgreSQL.
-You can inspect my API here http://crispina.herokuapp.com/api/info, http://crispina.herokuapp.com/api/projects, http://crispina.herokuapp.com/api/contacts
+You can view my portfolio website here https://crispina.adaptable.app/
 
 ## Setup
 
