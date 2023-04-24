@@ -24,14 +24,14 @@ async function seed() {
       title: 'Codewords',
       content: 'A multiplayer game based on the board game Codenames',
       imageUrl: 'codewords.png',
-      projectUrl: 'https://codewords-1909-gracehopper.herokuapp.com/',
+      projectUrl: 'https://github.com/crispinamuriel/Codewords',
       gitHubUrl: 'https://github.com/crispinamuriel/Codewords'
     }),
     Project.create({
       title: 'LoveLaces',
       content: 'An e-commerce full stack application for women’s shoes',
       imageUrl: 'Shoes.jpg',
-      projectUrl: 'https://grace-shopper-lovelaces.herokuapp.com/',
+      projectUrl: 'https://github.com/crispinamuriel/Lovelaces',
       gitHubUrl: 'https://github.com/crispinamuriel/Lovelaces'
     }),
     Project.create({
