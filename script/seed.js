@@ -24,7 +24,7 @@ async function seed() {
       title: 'Codewords',
       content: 'A multiplayer game based on the board game Codenames',
       imageUrl: 'codewords.png',
-      projectUrl: 'https://github.com/crispinamuriel/Codewords',
+      projectUrl: 'https://codenames.adaptable.app/',
       gitHubUrl: 'https://github.com/crispinamuriel/Codewords'
     }),
     Project.create({
