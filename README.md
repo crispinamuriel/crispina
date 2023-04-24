@@ -1,7 +1,8 @@
 # Crispnia Muriel
 
 Personal website, a full stack app created with React, Node, Express and PostgreSQL.
-You can inspect my API here http://crispina.herokuapp.com/api/info, http://crispina.herokuapp.com/api/projects, http://crispina.herokuapp.com/api/contacts
+
+You can view my portfolio website here https://crispina.adaptable.app/
 
 ## Setup
 
@@ -20,9 +21,3 @@ You can inspect my API here http://crispina.herokuapp.com/api/info, http://crisp
 * `npm run build-watch` to start the webpack process
 * Open another terminal window; from there, `npm run start-server` to start the server process
 * Open another terminal window; from there, `npm run seed` to seed the database
-
-## Heroku Deployment
-
-* `npm run deploy`
-* Open another terminal window; from there , `heroku run bash`
-* Inside the heroku container, `npm run seed` to seed the database
