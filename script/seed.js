@@ -14,6 +14,18 @@ async function seed() {
 
   const projects = await Promise.all([
     Project.create({
+      title: 'Calibrate Membership',
+      content: 'Sign-up and payment flow for Calibrate members',
+      imageUrl: 'calibrate.png',
+      projectUrl: 'https://apply.joincalibrate.com/oymr'
+    }),
+    Project.create({
+      title: 'Join Calibrate',
+      content: 'Calibrate marketing website',
+      imageUrl: 'calibrate2.png',
+      projectUrl: 'https://www.joincalibrate.com'
+    }),
+    Project.create({
       title: 'EnCoMPASS',
       content: 'An educational app for students & teacher collaboration',
       imageUrl: 'encompass.png',
@@ -30,14 +42,14 @@ async function seed() {
     Project.create({
       title: 'LoveLaces',
       content: 'An e-commerce full stack application for women’s shoes',
-      imageUrl: 'Shoes.jpg',
-      projectUrl: 'https://github.com/crispinamuriel/Lovelaces',
+      imageUrl: 'Shoes.png',
+      projectUrl: 'https://lovelaces.adaptable.app/',
       gitHubUrl: 'https://github.com/crispinamuriel/Lovelaces'
     }),
     Project.create({
       title: 'Recipe App',
       content: 'A single page application to store user recipes',
-      imageUrl: 'recipe.jpeg',
+      imageUrl: 'recipe.png',
       projectUrl: 'https://muriel-recipe-app.netlify.com/',
       gitHubUrl: 'https://github.com/crispinamuriel/recipe-app'
     })
@@ -47,13 +59,13 @@ async function seed() {
     Info.create({
       title: 'Technical Skills',
       content:
-        'JavaScript (ES6+), HTML5, CSS, React.js, Redux.js, Node.js, Express.js, PostgreSQL, Sequelize, SQL, RDBMS, Babel, Webpack, Git, GitHub, AJAX, REST, APIs, JSON, WebSockets, Socket.io, Jasmine, Mocha, Chai, Enzyme, LocalStorage, Full Stack Development, Heroku, Google OAuth, Agile, SCRUM, Pair Programming, UI/UX, Web Design, Linux, Bash, Browserify, Vue.js, Vuetify, Ember.js, Selenium, CentOS/Linode',
+        'JavaScript (ES6+), TypeScript, HTML5, CSS, React.js, Redux.js, Node.js, Express.js, PostgreSQL, Python, Django, SQL, RDBMS, Babel, Webpack, Git, GitHub, AJAX, RESTful APIs, JSON, WebSockets, Socket.io, Webhooks, Jest, Jasmine, Mocha, Chai, Enzyme, Cypress, Selenium, LocalStorage, Full Stack Development, Heroku, Google OAuth, Agile, SCRUM, JIRA, Confluence, Pair Programming, UI/UX, Linux, Bash, Browserify, Vue.js, Vuetify, Ember.js',
       imgUrl: 'dev-logos.png'
     }),
     Info.create({
       title: 'Professional Background',
       content:
-        'My passions are Tech, Learning, and Education. I have credentials to teach elementary school in California and New York. As a user of educational apps in my classroom, I was always inspired at how technology seemed to motivate my class to learn. I loved my time spent working with children and am proud to contribute to the EdTech field that reaches many children in a meaningful way. I have been coding and building full stack applications for over a year. JavaScript is fun to work with, I love how creative I can be with it. I am currently working as a Full Stack JavaScript Developer on an educational app that allows students and teachers to collaborate.',
+        'My passions are Tech, Learning, and Education. I have credentials to teach elementary school in California and New York. As a user of educational apps in my classroom, I was always inspired at how technology seemed to motivate my class to learn. I loved my time spent working with children and am proud to have contributed to the EdTech field that reaches many children in a meaningful way. \n \n For the past three years I have immersed myself in coding and constructing full stack applications for various clients. Working with JavaScript, TypeScript, and Python has been an exhilarating journey, allowing me to unleash my creativity within the realm of web application development. I have been actively participating in diverse projects as a Full Stack Developer, notably collaborating on an an educational app, a fintech app, a health tech app, signup and payment flows, marketing websites, and an insurance processing app.',
       imgUrl: 'education.jpg'
     }),
     Info.create({
@@ -65,13 +77,13 @@ async function seed() {
     Info.create({
       title: 'Professional Interests',
       content:
-        "I've attended a few AWS Loft events and single-day 'bootcamps' about Machine Learning, Internet of Things, and Blockchain. I am interested in learning more about these topics. If you feel like you want to discuss TensorFlow, let's have Zoom tea time and chat! The next languages I'm looking to learn next  are Python, Typescript, and Java. I hope to learn a little more about GraphQL, Docker, and Kubernetes.",
+        "I've attended a few AWS Loft events and single-day 'bootcamps' about Machine Learning, Internet of Things, and Blockchain. I am interested in learning more about these topics. If you feel like you want to discuss anything tech, let's connect on LinkedIn and chat! The next languages I'm looking to learn next  are Rust, C#, and Java. I hope to learn a little more about AWS, GraphQL, Docker, and Kubernetes.",
       imgUrl: 'iot.jpg'
     }),
     Info.create({
       title: 'Personal Interests',
       content:
-        'I love to cook, I bake my own pizza from scratch, and I roll my own sushi. I also love to play video games. My interest in gaming started when I was about 6 years old with an ATARI my parents borrowed from a relative. Ever since then I have been an avid gamer. Please ask me about NES/SNES games or soundtracks!',
+        'I love to cook, I bake my own pizza from scratch, and I roll my own sushi. I also love to play video games. My interest in gaming started when I was about 6 years old with an ATARI my parents borrowed from a relative. Ever since then I have been an avid gamer. Please ask me about my favorite NES/SNES games or soundtracks!',
       imgUrl: 'personal.jpg'
     })
   ])
@@ -85,7 +97,7 @@ async function seed() {
     Contact.create({
       title: 'LinkedIn',
       imgUrl: 'linkedin.png',
-      url: 'https://www.linkedin.com/in/crispinarmuriel/'
+      url: 'https://www.linkedin.com/in/crispinarmuriel'
     }),
     Contact.create({
       title: 'Github',
