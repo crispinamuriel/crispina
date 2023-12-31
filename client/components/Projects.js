@@ -46,18 +46,14 @@ export default class Projects extends Component {
                   rel="noopener noreferrer"
                 >
                   {' '}
-                  {story.gitHubUrl ? (
-                    <div>
-                      <span id="source">View Source Code</span>
-                      <img
-                        id="code"
-                        src="https://cdn.iconscout.com/icon/free/png-512/code-336-830581.png"
-                        width="30"
-                      />
-                    </div>
-                  ) : (
-                    ''
-                  )}
+                  <div>
+                    <span id="source">View Source Code</span>
+                    <img
+                      id="code"
+                      src="https://cdn.iconscout.com/icon/free/png-512/code-336-830581.png"
+                      width="30"
+                    />
+                  </div>
                 </a>
               </div>
             ) : (
